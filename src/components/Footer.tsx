@@ -77,7 +77,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-[var(--primary-red)] flex-shrink-0 mt-0.5" />
                 <p className="text-white/80">
-                  จ.ยโสธร (สำนักงานใหญ่)
+                  จ.ยโสธร
                   <br />
                   จ.มุกดาหาร • จ.ร้อยเอ็ด
                 </p>

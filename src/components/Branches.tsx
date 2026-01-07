@@ -109,7 +109,7 @@ export default function Branches() {
                 </div>
                 <div className="absolute top-[45%] left-[55%] group">
                   <div className="w-6 h-6 rounded-full bg-[var(--primary-red)] animate-pulse ring-4 ring-[var(--primary-red)]/30" />
-                  <span className="absolute left-8 top-0 text-sm font-bold text-[var(--primary-red)] whitespace-nowrap">ยโสธร (สำนักงานใหญ่)</span>
+                  <span className="absolute left-8 top-0 text-sm font-bold text-[var(--primary-red)] whitespace-nowrap">ยโสธร</span>
                 </div>
                 <div className="absolute top-[50%] left-[30%] group">
                   <div className="w-4 h-4 rounded-full bg-[var(--primary-navy)] animate-pulse" />
