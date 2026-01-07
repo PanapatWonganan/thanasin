@@ -32,12 +32,12 @@ export const translations = {
         pico: {
           title: "Pico Finance",
           description: "สินเชื่อรายย่อยระดับจังหวัด ใบอนุญาตถูกต้องตามกฎหมาย วงเงินสูงสุด 100,000 บาท อนุมัติไว ไม่ต้องมีหลักประกัน",
-          features: ["วงเงินสูงสุด 100,000 บาท", "อนุมัติภายใน 24 ชั่วโมง", "ไม่ต้องมีหลักประกัน", "ผ่อนสบายสูงสุด 12 เดือน"],
+          features: ["วงเงินสูงสุด 100,000 บาท", "อนุมัติภายใน 24 ชั่วโมง", "ไม่ต้องมีหลักประกัน", "ผ่อนสบายสูงสุด 48 เดือน"],
         },
         personal: {
           title: "สินเชื่อส่วนบุคคล",
-          description: "สินเชื่อสำหรับข้าราชการและพนักงานรัฐวิสาหกิจ วงเงินสูง ดอกเบี้ยต่ำ หักเงินเดือน ณ ที่จ่าย",
-          features: ["วงเงินสูงสุด 500,000 บาท", "ดอกเบี้ยต่ำพิเศษ", "หักเงินเดือน ณ ที่จ่าย", "ผ่อนสบายสูงสุด 60 เดือน"],
+          description: "สินเชื่อสำหรับข้าราชการและพนักงานรัฐ วงเงินสูง ดอกเบี้ยต่ำ",
+          features: ["วงเงินสูงสุด 100,000 บาท", "ดอกเบี้ยต่ำพิเศษ", "ผ่อนสบายสูงสุด 48 เดือน"],
         },
         refinance: {
           title: "รีไฟแนนซ์",
@@ -123,7 +123,7 @@ export const translations = {
         email: "อีเมล",
         line: "Line",
         hours: "เวลาทำการ",
-        hoursValue: "จันทร์-ศุกร์ 8:30-17:00 น.",
+        hoursValue: "จันทร์-ศุกร์ 09.00-16.00 น. / เสาร์ 09.00-12.00 น. (หยุดวันอาทิตย์และวันหยุดนักขัตฤกษ์)",
       },
     },
     footer: {
@@ -169,12 +169,12 @@ export const translations = {
         pico: {
           title: "Pico Finance",
           description: "Provincial micro-credit with legal license. Up to 100,000 THB, fast approval, no collateral required.",
-          features: ["Up to 100,000 THB", "24-hour approval", "No collateral required", "Up to 12 months term"],
+          features: ["Up to 100,000 THB", "24-hour approval", "No collateral required", "Up to 48 months term"],
         },
         personal: {
           title: "Personal Loan",
-          description: "Loans for government officials and state enterprise employees. High credit limit, low interest, salary deduction.",
-          features: ["Up to 500,000 THB", "Special low interest", "Salary deduction", "Up to 60 months term"],
+          description: "Loans for government officials and government employees. High credit limit, low interest.",
+          features: ["Up to 100,000 THB", "Special low interest", "Up to 48 months term"],
         },
         refinance: {
           title: "Refinance",
@@ -260,7 +260,7 @@ export const translations = {
         email: "Email",
         line: "Line",
         hours: "Business Hours",
-        hoursValue: "Mon-Fri 8:30 AM - 5:00 PM",
+        hoursValue: "Mon-Fri 09.00-16.00 / Sat 09.00-12.00 (Closed on Sundays & Public Holidays)",
       },
     },
     footer: {
